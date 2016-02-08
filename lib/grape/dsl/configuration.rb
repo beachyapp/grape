@@ -111,7 +111,8 @@ module Grape
             :entity,
             :http_codes,
             :named,
-            :headers
+            :headers,
+            :is_array
           )
 
           def config_context.success(*args)
